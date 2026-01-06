@@ -50,7 +50,7 @@ const projects = [
   {
     title: "Full Compiler Implementation",
     period: "Jan 2023 – Apr 2023",
-    tech: "Java, Compilers, JUnit",
+    tech: "Java, JUnit",
     bullets: [
       "Implemented a custom Java compiler from scratch supporting 10+ token types and 25+ keywords",
       "Designed lexical analysis and grammar parsing components",
@@ -59,13 +59,57 @@ const projects = [
     github: "https://github.com/nyndyny/Compiler-Implementation",
     demo: null,
   },
+  {
+    title: "ARM Emulator",
+    period: "Jan 2022 – Apr 2022",
+    tech: "C++, Assembly Language",
+    bullets: [
+      "Built an ARM emulator to translate machine language code to assembly language code scoping over 30+ ARM instruction opcodes",
+      "Simulated a register based memory architecture to store respective data during each cycle",
+    ],
+    github: null,
+    demo: null,
+  },
+  {
+    title: "Delivery Simulator",
+    period: "Aug 2021 – Dec 2021",
+    tech: "C++",
+    bullets: [
+      "Built a delivery simulator to compute optimal delivery path in user-defined simulation environment",
+      "Compared the performance of greedy algorithms like Dijkstra and Bellman-Ford",
+      "Added features to calculate fuel consumption and cost, carbon emissions, and estimated delivery time",
+    ],
+    github: "https://github.com/nyndyny/Delivery-Simulator",
+    demo: null,
+  },
+   {
+    title: "Minesweeper Game",
+    period: "Jan 2021 – Apr 2021",
+    tech: "C++, SFML",
+    bullets: [
+      "Recreated the classic Minesweeper game with randomized or customizable board options",
+      "Incorporated a cheat mode to help beginners to understand the game",
+    ],
+    github: "https://github.com/nyndyny/Minesweeper",
+    demo: null,
+  },
+  {
+    title: "Image Processor",
+    period: "Jan 2021 – Apr 2021",
+    tech: "C++",
+    bullets: [
+      "Designed and implemented an image editing application to create a similar program to Photoshop",
+      "Processed .tga files to introduce image editing features such as collage, image overlay, gray-scale transformation",
+    ],
+    github: null,
+    demo: null,
+  },
 ];
 
 export default function Projects() {
   return (
     <section id="projects">
       <h2>Projects</h2>
-
       <div className="grid">
         {projects.map((project, index) => (
           <div key={index} className="card project-card">
@@ -73,32 +117,20 @@ export default function Projects() {
               <h3>{project.title}</h3>
               <span className="project-period">{project.period}</span>
             </div>
-
             <p className="project-tech">{project.tech}</p>
-
             <ul>
               {project.bullets.map((bullet, i) => (
                 <li key={i}>{bullet}</li>
               ))}
             </ul>
-
             <div className="project-links">
               {project.github && (
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={project.github} target="_blank" rel="noreferrer">
                   GitHub →
                 </a>
               )}
-
               {project.demo && (
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a href={project.demo} target="_blank" rel="noreferrer">
                   Live Demo →
                 </a>
               )}
