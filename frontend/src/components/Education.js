@@ -5,7 +5,7 @@ export default function Education() {
 
       <div className="card education-card">
         <div className="education-header">
-          <h3>Bachelor of Science in Computer Science, minor in Mathematics</h3>
+          <h3>Bachelor of Science in Computer Science w/ minor in Mathematics</h3>
           <span className="education-period">Aug 2020 - May 2024</span>
         </div>
 

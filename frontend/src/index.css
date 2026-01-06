@@ -12,6 +12,7 @@ section {
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 10%;
   background: #111;
   color: #fff;
@@ -21,11 +22,32 @@ section {
   display: flex;
   gap: 20px;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
+}
+
+/* 📱 Mobile styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .theme-toggle {
+    margin-top: 10px;
+  }
 }
 
 .hero {
