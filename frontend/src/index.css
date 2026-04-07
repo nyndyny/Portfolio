@@ -161,7 +161,7 @@ section {
   }
 
   .navbar.is-sticky {
-    width: auto;
+    /* width: auto; */
     max-width: 100%;
   }
 
