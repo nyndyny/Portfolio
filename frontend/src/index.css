@@ -7,7 +7,6 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   min-height: 100svh;
-  /* overscroll-behavior: none; */
 }
 
 * {
@@ -15,7 +14,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* background: var(--bg); */
   font-family: "Inter", system-ui, sans-serif;
 }
 
@@ -166,7 +164,7 @@ section {
   }
 
   .navbar.is-sticky {
-    /* width: auto; */
+    width: auto;
     max-width: 100%;
   }
 
@@ -230,7 +228,7 @@ section {
   background: var(--bg);
   color: var(--text);
   padding: 0 10%;
-  top: 30px;
+  padding-top: 50px;
   z-index: 5;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.2);
 }
