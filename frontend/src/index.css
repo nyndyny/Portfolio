@@ -55,7 +55,9 @@ section {
 /* Navbar */
 
 .navbar {
-  margin: 32px auto;
+  /* margin: 32px auto; */
+  margin: 0;
+  top: 32px;
   width: fit-content;
   z-index: 100;
   padding: 15px 25px;
@@ -164,7 +166,7 @@ section {
   }
 
   .navbar.is-sticky {
-    width: auto;
+    /* width: auto; */
     max-width: 100%;
   }
 
