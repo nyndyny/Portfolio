@@ -1,8 +1,13 @@
 /* Global styles */
+html, body {
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  min-height: 100svh;
+  /* overscroll-behavior: none; */
 }
 
 * {
@@ -214,7 +219,7 @@ section {
 /* Hero */
 
 .hero {
-  min-height: 100vh;
+  min-height: 100svh;
   min-height: 100dvh;
   display: flex;
   position: relative;
