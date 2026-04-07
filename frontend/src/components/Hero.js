@@ -1,6 +1,9 @@
+import Effects from "./Effects";
+
 export default function Hero() {
     return (
     <section className="hero">
+        <Effects className="tsparticles" />
         <h1 className="hero-name">Nandini Tripathi</h1>
 
         <h2 className="hero-title">

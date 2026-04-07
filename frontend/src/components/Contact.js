@@ -1,14 +1,17 @@
 export default function Contact() {
   return (
-    <section id="contact">
-      <h2 className="section-header">Contact</h2>
-      <p>Email: nandinitripathi210@gmail.com</p>
-      <p>
-        GitHub: <a href="https://github.com/nyndyny" target="_blank" rel="noreferrer">github.com/nyndyny</a>
-      </p>
-      <p>
-        LinkedIn: <a href="https://www.linkedin.com/in/nandini-tripathi/" target="_blank" rel="noreferrer">linkedin.com/in/nandinitripathi</a>
-      </p>
+    <section id="contact" className="section">
+      <h2 className="section-header">Contact Me</h2>
+      <form
+        className="contact-form"
+        action="https://formspree.io/f/mbdlnjgp"
+        method="POST"
+      >
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   );
 }
