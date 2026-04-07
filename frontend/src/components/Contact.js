@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section id="contact">
-      <h2>Contact</h2>
+      <h2 className="section-header">Contact</h2>
       <p>Email: nandinitripathi210@gmail.com</p>
       <p>
         GitHub: <a href="https://github.com/nyndyny" target="_blank" rel="noreferrer">github.com/nyndyny</a>

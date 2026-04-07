@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <section id="education">
-      <h2>Education</h2>
+      <h2 className="section-header">Education</h2>
 
       <div className="card education-card">
         <div className="education-header">

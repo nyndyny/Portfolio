@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section id="about">
-      <h2>About Me</h2>
+      <h2 className="section-header">About Me</h2>
       <p>
         I am a recent Computer Science graduate with a passion for leveraging technology to solve complex challenges.
         I also pursued a minor in Mathematics, adding depth to my analytical and problem-solving skills.

@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
     <section id="experience">
-      <h2>Experience</h2>
+      <h2 className="section-header">Experience</h2>
       <div className="card">
         <h3>Software Engineering Intern</h3>
         <p>Technical Consulting & Research • Sep 2024 - July 2025</p>
