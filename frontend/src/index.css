@@ -152,11 +152,16 @@ section {
   .navbar {
     /* width: fit-content; */
     width: auto;
-    max-width: 100%;
+    max-width: 95%;
     padding: 10px 14px;
     /* justify-content: space-between; */
     justify-content: flex-start;
     /* overflow: hidden; */
+  }
+
+  .navbar.is-sticky {
+    width: auto;
+    max-width: 100%;
   }
 
   .nav-links {
