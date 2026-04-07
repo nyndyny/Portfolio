@@ -64,8 +64,8 @@ const Effects = () => {
                 particles: {
                     shadow: {
                     enable: true,
-                    color: "#5ec3ea",
-                    blur: 5
+                    color: "#899092",
+                    blur: 10
                 },
                     number: { 
                         value: 250, 
@@ -76,7 +76,7 @@ const Effects = () => {
                     },
                     color: {
                         // value: ["#f95252", "#f9a676"] 
-                        value: ["#52b6f9", "#f976f0"] 
+                        value: ["#52b6f9", "#f976f0", "#fe858b"] 
                     }, 
                     shape: { 
                         type: "circle" 
