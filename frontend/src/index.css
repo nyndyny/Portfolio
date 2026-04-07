@@ -152,7 +152,7 @@ section {
   .navbar {
     /* width: fit-content; */
     width: auto;
-    max-width: 95%;
+    /* max-width: 95%; */
     padding: 10px 14px;
     /* justify-content: space-between; */
     justify-content: flex-start;
