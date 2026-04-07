@@ -53,7 +53,7 @@ section {
 .navbar {
   margin: 32px auto;
   width: fit-content;
-  z-index: 2;
+  z-index: 100;
   padding: 15px 25px;
   display: flex;
   /* gap: auto; */
@@ -77,6 +77,10 @@ section {
     transform 0.35s ease;
 }
 
+/* * {
+  outline: 1px solid red;
+} */
+
 .navbar.is-sticky {
   position: fixed;
   margin: 0;
@@ -89,11 +93,11 @@ section {
   backdrop-filter: blur(12px);
 
   /* padding: 16px 32px; */
-  border-radius: 20px;
+  border-radius: 0 0 20px 20px;
 
   background: var(--card-bg);
-  box-shadow: 0 10px 32px var(--bg);
-
+  box-shadow: 0 10px 30px var(--bg);
+  overflow: hidden;
   z-index: 1000;
 }
 
@@ -216,8 +220,9 @@ section {
 
 .hero {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
-  /* position: relative; */
+  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
